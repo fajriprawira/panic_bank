@@ -1,0 +1,15 @@
+PANIC: Payment And Notification Integration & Compliance
+
+Penjelasan:
+
+Payment: Melibatkan transaksi keuangan, pembayaran, dan manajemen aliran dana.
+And Notification: Pemberitahuan atau notifikasi terkait transaksi, status pembayaran, atau informasi penting lainnya.
+Integration: Integrasi sistem dan proses keuangan untuk efisiensi dan sinkronisasi data.
+Compliance: Kepatuhan terhadap regulasi keuangan dan peraturan hukum yang berlaku.
+PANIC dalam konteks ini bisa merujuk pada solusi atau sistem yang memastikan proses pembayaran berjalan lancar, memberikan notifikasi yang tepat waktu, mengintegrasikan berbagai sistem keuangan, dan mematuhi semua regulasi yang berlaku.
+
+
+transfer antar bank dibatasi 25 jt
+transfer bank yang sama tidak dibatasi
+
+pembelian dibatasi barang barang yang ilegal/terlarang
