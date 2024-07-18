@@ -1,0 +1,148 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography"></script>
+		<script src="https://unpkg.com/unlazy@0.11.3/dist/unlazy.with-hashing.iife.js" defer init></script>
+		<script type="text/javascript">
+			window.tailwind.config = {
+				darkMode: ['class'],
+				theme: {
+					extend: {
+						colors: {
+							border: 'hsl(var(--border))',
+							input: 'hsl(var(--input))',
+							ring: 'hsl(var(--ring))',
+							background: 'hsl(var(--background))',
+							foreground: 'hsl(var(--foreground))',
+							primary: {
+								DEFAULT: 'hsl(var(--primary))',
+								foreground: 'hsl(var(--primary-foreground))'
+							},
+							secondary: {
+								DEFAULT: 'hsl(var(--secondary))',
+								foreground: 'hsl(var(--secondary-foreground))'
+							},
+							destructive: {
+								DEFAULT: 'hsl(var(--destructive))',
+								foreground: 'hsl(var(--destructive-foreground))'
+							},
+							muted: {
+								DEFAULT: 'hsl(var(--muted))',
+								foreground: 'hsl(var(--muted-foreground))'
+							},
+							accent: {
+								DEFAULT: 'hsl(var(--accent))',
+								foreground: 'hsl(var(--accent-foreground))'
+							},
+							popover: {
+								DEFAULT: 'hsl(var(--popover))',
+								foreground: 'hsl(var(--popover-foreground))'
+							},
+							card: {
+								DEFAULT: 'hsl(var(--card))',
+								foreground: 'hsl(var(--card-foreground))'
+							},
+						},
+					}
+				}
+			}
+		</script>
+		<style type="text/tailwindcss">
+			@layer base {
+				:root {
+					--background: 0 0% 100%;
+--foreground: 240 10% 3.9%;
+--card: 0 0% 100%;
+--card-foreground: 240 10% 3.9%;
+--popover: 0 0% 100%;
+--popover-foreground: 240 10% 3.9%;
+--primary: 240 5.9% 10%;
+--primary-foreground: 0 0% 98%;
+--secondary: 240 4.8% 95.9%;
+--secondary-foreground: 240 5.9% 10%;
+--muted: 240 4.8% 95.9%;
+--muted-foreground: 240 3.8% 46.1%;
+--accent: 240 4.8% 95.9%;
+--accent-foreground: 240 5.9% 10%;
+--destructive: 0 84.2% 60.2%;
+--destructive-foreground: 0 0% 98%;
+--border: 240 5.9% 90%;
+--input: 240 5.9% 90%;
+--ring: 240 5.9% 10%;
+--radius: 0.5rem;
+				}
+				.dark {
+					--background: 240 10% 3.9%;
+--foreground: 0 0% 98%;
+--card: 240 10% 3.9%;
+--card-foreground: 0 0% 98%;
+--popover: 240 10% 3.9%;
+--popover-foreground: 0 0% 98%;
+--primary: 0 0% 98%;
+--primary-foreground: 240 5.9% 10%;
+--secondary: 240 3.7% 15.9%;
+--secondary-foreground: 0 0% 98%;
+--muted: 240 3.7% 15.9%;
+--muted-foreground: 240 5% 64.9%;
+--accent: 240 3.7% 15.9%;
+--accent-foreground: 0 0% 98%;
+--destructive: 0 62.8% 30.6%;
+--destructive-foreground: 0 0% 98%;
+--border: 240 3.7% 15.9%;
+--input: 240 3.7% 15.9%;
+--ring: 240 4.9% 83.9%;
+				}
+			}
+		</style>
+  </head>
+  <body>
+    <div class="bg-card text-card-foreground min-h-screen">
+  
+  <header class="bg-foreground text-background flex justify-between items-center p-4">
+    <div class="flex items-center">
+      <img src="./images/Panic-Button_bulat.png" alt="ant images" class="rounded-full mr-2" style="height: 40px; width: 40px;">
+      <span class="font-bold">PANIC BANK</span>
+    </div>
+    <nav class="space-x-4">
+      <a src="/dashboard" class="hover:underline">Dashboard</a>
+      <a href="#" class="hover:underline">As Contact</a>
+      <a href="/login" class="hover:underline">Sign In</a>
+    </nav>
+  </header>
+  
+  <main class="p-8">
+    
+    <div class="bg-primary text-primary-foreground p-4 rounded-md text-center mb-8">
+        <h1>P A N I C</h1>
+    </div>
+    
+    <div class="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-4">
+      
+      <div class="bg-secondary text-secondary-foreground p-6 rounded-md flex-1">
+        <h2 class="text-xl font-bold mb-4">Apa Itu P A N I C :</h2>
+        <h5 class="text mb-2">Payment: Melibatkan transaksi keuangan, pembayaran, dan manajemen aliran dana.
+        </h5>
+        <h5 class="text mb-2">And Notification: Pemberitahuan atau notifikasi terkait transaksi, status pembayaran, atau informasi penting lainnya.</h5>
+        <h5 class="text mb-2">Integration: Integrasi sistem dan proses keuangan untuk efisiensi dan sinkronisasi data.</h5>
+        <h5 class="text mb-2">Compliance: Kepatuhan terhadap regulasi keuangan dan peraturan hukum yang berlaku.</h5>
+        <p class="mb-5">
+            PANIC dalam konteks ini bisa merujuk pada solusi atau sistem yang memastikan proses pembayaran berjalan lancar, memberikan notifikasi yang tepat waktu, mengintegrasikan berbagai sistem keuangan, dan mematuhi semua regulasi yang berlaku.
+
+        </p>
+        <h2 class="text-xl font-bold mb-4">Why do we use it?</h2>
+        <h5 class="text mb-2">transfer antar bank dibatasi 25 jt.</h5>
+        <h5 class="text mb-2">transfer bank yang sama tidak dibatasi.</h5>
+        <p>
+            pembelian dibatasi barang barang yang ilegal/terlarang
+        </p>
+      </div>
+      
+      <div class="flex-1">
+        <img src="../images/Panic-Buttoncaaa.jpeg" alt="Sweating cartoon character" class="rounded-md">
+      </div>
+    </div>
+  </main>
+</div>
+  </body>
+</html>

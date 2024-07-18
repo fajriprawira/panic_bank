@@ -4,7 +4,7 @@
     "fullname": "fajri Prawira",
     "dateofbirth": "28 Juni 1995",
     "address": "Bsd",
-    "phonenumber": 6281769696999,
+    "phonenumber": "6281769696999",
     "UserId": 1
     
   },
@@ -13,7 +13,7 @@
     "fullname": "blaank",
     "dateofbirth": "11 Januari 2000",
     "address": "serpong",
-    "phonenumber": 6281357575793,
+    "phonenumber": "6281357575793",
     "UserId": 2
     
   },
@@ -23,8 +23,27 @@
     "fullname": "kepo",
     "dateofbirth": "29 februari 2002",
     "address": "buntu",
-    "phonenumber": 6282355575793,
+    "phonenumber": "6282355423793",
     "UserId": 3
     
+  },
+  {
+    
+    "fullname": "Dicks dicks bin dicks",
+    "dateofbirth": "29 februari 2002",
+    "address": "jl bobok cantik",
+    "phonenumber": "628276575793",
+    "UserId": 4
+    
+  },
+  {
+    
+    "fullname": "Ulin binti ulin",
+    "dateofbirth": "29 februari 2017",
+    "address": "buntu",
+    "phonenumber": "6282445575793",
+    "UserId": 5
+    
   }
+
 ]

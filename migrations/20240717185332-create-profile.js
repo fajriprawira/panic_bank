@@ -15,11 +15,11 @@ module.exports = {
       dateofbirth: {
         type: Sequelize.STRING
       },
-      addres: {
+      address: {
         type: Sequelize.STRING
       },
       phonenumber: {
-        type: Sequelize.INTEGER
+        type: Sequelize.STRING
       },
       createdAt: {
         allowNull: false,
@@ -29,6 +29,7 @@ module.exports = {
         allowNull: false,
         type: Sequelize.DATE
       }
+    
     });
   },
   async down(queryInterface, Sequelize) {
