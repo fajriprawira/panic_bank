@@ -11,11 +11,30 @@ module.exports = (sequelize, DataTypes) => {
      */
     static associate(models) {
       // define association here
+      Transaction.hasMany(models.Account)
+      Transaction.belongsToMany(models.User, {through:models.Account})
     }
+
   }
   Transaction.init({
-    amount: DataTypes.INTEGER,
-    type: DataTypes.STRING
+  amount:{
+
+    type: DataTypes.INTEGER,
+    allowNull:false,
+    validate:{
+      notEmpty:{msg :'Amount is not Empty'},
+      notNull:{msg : 'Amount is required'} 
+    }
+  },
+
+  type: {
+    type: DataTypes.STRING,
+    allowNull:false,
+    validate:{
+      notEmpty:{msg :'Type is not Empty'},
+      notNull:{msg : 'Type is required'} 
+    }
+  },
   }, {
     sequelize,
     modelName: 'Transaction',
