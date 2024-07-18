@@ -4,13 +4,14 @@
     "fullname": "fajri Prawira",
     "dateofbirth": "28 Juni 1995",
     "address": "Bsd",
-    "phonenumber": 6281769696969,
+    "phonenumber": 6281769696999,
     "UserId": 1
     
   },
   {
     
-    "fullname": "Avatar makan",
+    "fullname": "blaank",
+    "dateofbirth": "11 Januari 2000",
     "address": "serpong",
     "phonenumber": 6281357575793,
     "UserId": 2
@@ -19,10 +20,11 @@
 
   {
     
-    "fullname": "Avatar makan",
-    "address": "serpong",
-    "phonenumber": 6281357575793,
-    "UserId": 2
+    "fullname": "kepo",
+    "dateofbirth": "29 februari 2002",
+    "address": "buntu",
+    "phonenumber": 6282355575793,
+    "UserId": 3
     
   }
 ]

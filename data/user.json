@@ -1,7 +1,6 @@
 [
   {
     
-    "username": "fajriminang",
     "email":"nasikapaulamak@mail.com",
     "password":"rendanghitam1da",
     "role":"admin"
@@ -9,9 +8,14 @@
   },
   {
     
-    "username": "Avatar Aung",
     "email":"padangmasyar@mail.com",
     "password":"tambuah1da",
+    "role":"user"
+  },
+  {
+    
+    "email":"spongekbob@mail.com",
+    "password":"nekuk123",
     "role":"user"
   }
 ]
