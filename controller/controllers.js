@@ -80,7 +80,7 @@ class Controller {
       const transactions = await Transaction.findAll({
         include: [{ model: User, where: { id: req.session.user.id } }]
       });
-      res.render('dashboard-transactions.ejs', { transactions });
+      res.render('dashboard-transactions', { transactions });
     } catch (error) {
       res.send(error);
     }
